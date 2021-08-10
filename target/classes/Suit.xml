@@ -6,5 +6,10 @@
 		</classes>
 	</test>
 
+	<test name="ShilpoNibondhonTestModule">
+		<classes>
+			<class name="com.bat.BscicAutomation.Test.ShilpoNibondhon" />
+		</classes>
+	</test>
 
 </suite>
