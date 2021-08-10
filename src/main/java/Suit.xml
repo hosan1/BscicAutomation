@@ -1,0 +1,10 @@
+<suite name="BscicAutomationBySelenium">
+
+	<test name="LoginTestModule">
+		<classes>
+			<class name="com.bat.BscicAutomation.Test.LoginTest" />
+		</classes>
+	</test>
+
+
+</suite>
