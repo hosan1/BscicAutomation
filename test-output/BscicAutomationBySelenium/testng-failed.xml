@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [BscicAutomationBySelenium]">
-  <test thread-count="5" name="LoginTestModule(failed)">
+  <test thread-count="5" name="ShilpoNibondhonTestModule(failed)">
     <classes>
-      <class name="com.bat.BscicAutomation.Test.LoginTest">
+      <class name="com.bat.BscicAutomation.Test.ShilpoNibondhon">
         <methods>
-          <include name="homepagetitleverify"/>
-          <include name="logintest" invocation-numbers="0"/>
+          <include name="homePageButtonVerifyAndClick"/>
+          <include name="industrialRegistrationForm"/>
+          <include name="goIndustrialRegistrationForm"/>
         </methods>
-      </class> <!-- com.bat.BscicAutomation.Test.LoginTest -->
+      </class> <!-- com.bat.BscicAutomation.Test.ShilpoNibondhon -->
     </classes>
-  </test> <!-- LoginTestModule(failed) -->
+  </test> <!-- ShilpoNibondhonTestModule(failed) -->
 </suite> <!-- Failed suite [BscicAutomationBySelenium] -->

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-10T17:07:18 BDT" name="BscicAutomationBySelenium" finished-at="2021-08-10T17:07:41 BDT" duration-ms="22120">
+  <suite started-at="2021-08-11T12:33:36 BDT" name="BscicAutomationBySelenium" finished-at="2021-08-11T12:35:07 BDT" duration-ms="91131">
     <groups>
     </groups>
-    <test started-at="2021-08-10T17:07:18 BDT" name="LoginTestModule" finished-at="2021-08-10T17:07:29 BDT" duration-ms="10524">
+    <test started-at="2021-08-11T12:33:36 BDT" name="LoginTestModule" finished-at="2021-08-11T12:33:48 BDT" duration-ms="12395">
       <class name="com.bat.BscicAutomation.Test.LoginTest">
-        <test-method signature="homepagetitleverify()[pri:0, instance:com.bat.BscicAutomation.Test.LoginTest@20140db9]" started-at="2021-08-10T17:07:18 BDT" name="homepagetitleverify" finished-at="2021-08-10T17:07:27 BDT" duration-ms="8224" status="PASS">
+        <test-method signature="homepagetitleverify()[pri:0, instance:com.bat.BscicAutomation.Test.LoginTest@20140db9]" started-at="2021-08-11T12:33:36 BDT" name="homepagetitleverify" finished-at="2021-08-11T12:33:46 BDT" duration-ms="9851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepagetitleverify -->
-        <test-method signature="logintest(java.util.List)[pri:0, instance:com.bat.BscicAutomation.Test.LoginTest@20140db9]" started-at="2021-08-10T17:07:28 BDT" name="logintest" data-provider="loginData" finished-at="2021-08-10T17:07:29 BDT" depends-on-methods="com.bat.BscicAutomation.Test.LoginTest.homepagetitleverify" duration-ms="1034" status="PASS">
+        <test-method signature="logintest(java.util.List)[pri:0, instance:com.bat.BscicAutomation.Test.LoginTest@20140db9]" started-at="2021-08-11T12:33:47 BDT" name="logintest" data-provider="loginData" finished-at="2021-08-11T12:33:48 BDT" depends-on-methods="com.bat.BscicAutomation.Test.LoginTest.homepagetitleverify" duration-ms="1119" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,16 +24,20 @@
         </test-method> <!-- logintest -->
       </class> <!-- com.bat.BscicAutomation.Test.LoginTest -->
     </test> <!-- LoginTestModule -->
-    <test started-at="2021-08-10T17:07:29 BDT" name="ShilpoNibondhonTestModule" finished-at="2021-08-10T17:07:41 BDT" duration-ms="11550">
+    <test started-at="2021-08-11T12:33:48 BDT" name="ShilpoNibondhonTestModule" finished-at="2021-08-11T12:35:07 BDT" duration-ms="78700">
       <class name="com.bat.BscicAutomation.Test.ShilpoNibondhon">
-        <test-method signature="buttonVerifyAndClick()[pri:0, instance:com.bat.BscicAutomation.Test.ShilpoNibondhon@14028087]" started-at="2021-08-10T17:07:29 BDT" name="buttonVerifyAndClick" finished-at="2021-08-10T17:07:38 BDT" duration-ms="8635" status="PASS">
+        <test-method signature="homePageButtonVerifyAndClick()[pri:0, instance:com.bat.BscicAutomation.Test.ShilpoNibondhon@cecf639]" started-at="2021-08-11T12:33:48 BDT" name="homePageButtonVerifyAndClick" finished-at="2021-08-11T12:33:56 BDT" duration-ms="7830" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- buttonVerifyAndClick -->
-        <test-method signature="applicationRegistry()[pri:0, instance:com.bat.BscicAutomation.Test.ShilpoNibondhon@14028087]" started-at="2021-08-10T17:07:38 BDT" name="applicationRegistry" finished-at="2021-08-10T17:07:41 BDT" depends-on-methods="com.bat.BscicAutomation.Test.ShilpoNibondhon.buttonVerifyAndClick" duration-ms="2906" status="PASS">
+        </test-method> <!-- homePageButtonVerifyAndClick -->
+        <test-method signature="goIndustrialRegistrationForm()[pri:0, instance:com.bat.BscicAutomation.Test.ShilpoNibondhon@cecf639]" started-at="2021-08-11T12:33:56 BDT" name="goIndustrialRegistrationForm" finished-at="2021-08-11T12:33:59 BDT" depends-on-methods="com.bat.BscicAutomation.Test.ShilpoNibondhon.homePageButtonVerifyAndClick" duration-ms="3234" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- applicationRegistry -->
+        </test-method> <!-- goIndustrialRegistrationForm -->
+        <test-method signature="industrialRegistrationForm()[pri:0, instance:com.bat.BscicAutomation.Test.ShilpoNibondhon@cecf639]" started-at="2021-08-11T12:33:59 BDT" name="industrialRegistrationForm" finished-at="2021-08-11T12:35:07 BDT" depends-on-methods="com.bat.BscicAutomation.Test.ShilpoNibondhon.goIndustrialRegistrationForm" duration-ms="67626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- industrialRegistrationForm -->
       </class> <!-- com.bat.BscicAutomation.Test.ShilpoNibondhon -->
     </test> <!-- ShilpoNibondhonTestModule -->
   </suite> <!-- BscicAutomationBySelenium -->

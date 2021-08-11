@@ -5,8 +5,9 @@
     <classes>
       <class name="com.bat.BscicAutomation.Test.ShilpoNibondhon">
         <methods>
-          <include name="buttonVerifyAndClick"/>
-          <include name="applicationRegistry"/>
+          <include name="homePageButtonVerifyAndClick"/>
+          <include name="industrialRegistrationForm"/>
+          <include name="goIndustrialRegistrationForm"/>
         </methods>
       </class> <!-- com.bat.BscicAutomation.Test.ShilpoNibondhon -->
     </classes>
