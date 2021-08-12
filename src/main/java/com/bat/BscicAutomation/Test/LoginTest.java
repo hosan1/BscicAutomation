@@ -19,7 +19,7 @@ import java.util.List;
 @Listeners(TestNGReporting.class)
 public class LoginTest {
 
-	private WebDriver driver = null;
+	private WebDriver driver = null; 
 
 	@Test
 	public void homepagetitleverify() {
