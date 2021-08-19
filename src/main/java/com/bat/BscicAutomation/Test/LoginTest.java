@@ -27,6 +27,7 @@ public class LoginTest {
 		driver.get(PathUtils.URL.baseUrl);
 		Assert.assertEquals(driver.getTitle(), PathUtils.Test.homepageTitle);
 		System.out.println("Homepage Title verified");
+		driver.manage().window().maximize();
 		driver.findElement(By.xpath(PathUtils.LoginModule.goLoginPageBtn)).click();
 		System.out.println("Login page button clicked.... ");
 	}

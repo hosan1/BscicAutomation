@@ -125,4 +125,70 @@ public class PathUtils {
 		public static final String nextBtn = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[3]/ul/li[2]/a";
 
 	}
+
+		
+	
+	public static class ShilpoNibondhonModule2 {
+		
+		//=============== Tab যন্ত্রপাতি ও সরঞ্জামাদির তথ্য===================
+		
+		//স্থানীয়ভাবে সংগৃহীত/সংগৃহীতব্য
+		
+		public static final String nameField = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[1]/div[2]/div/table/tbody[1]/tr[1]/td[1]/input";
+		public static final String quantityField = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[1]/div[2]/div/table/tbody[1]/tr[1]/td[2]/input";
+		public static final String ammountField = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[1]/div[2]/div/table/tbody[1]/tr[1]/td[3]/input";
+		public static final String addField = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[1]/div[2]/div/table/tbody[1]/tr[1]/td[4]/a";
+		
+		public static final String nameField2 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[1]/div[2]/div/table/tbody[1]/tr[2]/td[1]/input";
+		public static final String quantityField2 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[1]/div[2]/div/table/tbody[1]/tr[2]/td[2]/input";
+		public static final String ammountField2 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[1]/div[2]/div/table/tbody[1]/tr[2]/td[3]/input";
+		
+		public static final String nameField3 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[1]/div[2]/div/table/tbody[1]/tr[3]/td[1]/input";
+		public static final String quantityField3 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[1]/div[2]/div/table/tbody[1]/tr[3]/td[2]/input";
+		public static final String ammountField3 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[1]/div[2]/div/table/tbody[1]/tr[3]/td[3]/input";
+	
+
+		//আমদানিকৃত/আমদানিতব্য
+		public static final String nameField4 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[2]/div[2]/div[1]/table/tbody[1]/tr/td[1]/input";
+		public static final String quantityField4 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[2]/div[2]/div[1]/table/tbody[1]/tr/td[2]/input";
+		public static final String ammountField4 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[2]/div[2]/div[1]/table/tbody[1]/tr/td[3]/input";
+		public static final String addField2 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[2]/div[2]/div[1]/table/tbody[1]/tr[1]/td[4]/a";
+		
+		public static final String nameField5 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[2]/div[2]/div[1]/table/tbody[1]/tr[2]/td[1]/input";
+		public static final String quantityField5 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[2]/div[2]/div[1]/table/tbody[1]/tr[2]/td[2]/input";
+		public static final String ammountField5 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[2]/div[2]/div[1]/table/tbody[1]/tr[2]/td[3]/input";
+		
+		public static final String nameField6 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[2]/div[2]/div[1]/table/tbody[1]/tr[3]/td[1]/input";
+		public static final String quantityField6 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[2]/div[2]/div[1]/table/tbody[1]/tr[3]/td[2]/input";
+		public static final String ammountField6 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[1]/div[2]/div[2]/div[2]/div[1]/table/tbody[1]/tr[3]/td[3]/input";
+		
+		//কাঁচামাল ও মোড়ক উপকরণের বিবরণ
+		
+		public static final String quantityField7 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[2]/div[2]/table/tbody/tr[1]/td[3]/input";
+		public static final String ammountField7 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[2]/div[2]/table/tbody/tr[1]/td[4]/input";
+		
+		public static final String quantityField8 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[2]/div[2]/table/tbody/tr[2]/td[3]/input";
+		public static final String ammountField8 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/fieldset[2]/div[2]/div[2]/table/tbody/tr[2]/td[4]/input";
+		
+		public static final String nextPage = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[3]/ul/li[2]/a";
+		
+		//=================Tab প্রতিষ্ঠানের উদ্যোক্তা/পরিচালকগনের তথ্য=========================
+		
+		public static final String nextPage2 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[3]/ul/li[2]/a";
+		
+		//============== Tab উদ্যোক্তার পক্ষে আবেদনপত্র জমাদানকারি অনুমোদিত ব্যক্তির তথ্য==============
+		
+		public static final String podobi = "auth_person_desig";
+		public static final String address = "auth_person_address";
+		public static final String letterImage = "authorization_letter";
+		public static final String photo = "correspondent_photo";
+		public static final String crpBtn = "cropImageBtn";
+		public static final String term = "accept_terms";
+		public static final String nxt3 = "/html/body/div[1]/div[1]/section/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[3]/ul/li[2]/a";
+	
+		//============== Tab সার্ভিস ফী পেমেন্ট ==============
+		
+		public static final String address2 = "sfp_contact_address";
+		public static final String submit = "submitForm";
+	}
 }
